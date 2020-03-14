@@ -37,6 +37,8 @@ group :development, :test do
   gem 'factory_bot_rails'
   # Faker
   gem 'faker', git: 'https://github.com/faker-ruby/faker.git', branch: 'master'
+  # For testing controller
+  gem 'rails-controller-testing'
 end
 
 group :development do
