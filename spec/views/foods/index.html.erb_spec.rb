@@ -18,7 +18,6 @@ RSpec.describe 'foods/index', type: :view do
 
   it 'renders a list of foods' do
     render
-    p rendered
     assert_select 'tr>td', text: 'Name'.to_s, count: 2
     assert_select 'tr>td', text: 'Description'.to_s, count: 2
     assert_select 'tr>td', text: 100.to_s, count: 2

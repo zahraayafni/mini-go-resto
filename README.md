@@ -1,24 +1,16 @@
-# README
+# Mini Go Resto
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Problem Description
 
-Things you may want to cover:
+This web application simulates simple function for restaurant owner to check their menu,
+add new menu, edit menu, and remove outdated menu.
 
-* Ruby version
+## Dev Environment
 
-* System dependencies
+- Ruby 2.7.0
+- Rails 6.0.2.1
 
-* Configuration
+## How to run application
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- chmod +x ./run.sh
+- ./run.sh
